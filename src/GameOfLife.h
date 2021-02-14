@@ -8,6 +8,7 @@ class GameOfLife {
              bool useSIMD);
   void randomInit();
   void run();
+  void printGrid();
 
  private:
   uint64_t height_;
