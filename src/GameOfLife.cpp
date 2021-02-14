@@ -1,4 +1,4 @@
-#include "src/GameOfLife.h"
+#include "GameOfLife.h"
 
 GameOfLife::GameOfLife(uint64_t height, uint64_t width, uint64_t maxIters, bool useSIMD):
     height_(height),

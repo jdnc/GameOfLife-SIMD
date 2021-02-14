@@ -1,5 +1,5 @@
 #pragma once
-#include <vector>;
+#include <vector>
 
 class GameOfLife {
 
@@ -16,8 +16,8 @@ class GameOfLife {
 
     bool useSIMD_;
 
-    runScalar();
-    runSIMD();
+    void runScalar();
+    void runSIMD();
 };
 
 
