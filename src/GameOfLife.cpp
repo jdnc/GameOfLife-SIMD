@@ -46,8 +46,8 @@ int GameOfLife::countNbrs(uint64_t i, uint64_t j) {
 void GameOfLife::runScalar() {
   auto generation = 1;
   while (generation <= maxIters_) {
-   auto nextGrid = std::vector<std::vector<bool>>(height_,
-                                              std::vector<bool>(width_, false));
+    auto nextGrid = std::vector<std::vector<bool>>(
+        height_, std::vector<bool>(width_, false));
     for (auto i = 0; i < height_; ++i) {
       for (auto j = 0; j < width_; ++j) {
         auto count = countNbrs(i, j);
