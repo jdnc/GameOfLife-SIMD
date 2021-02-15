@@ -20,4 +20,6 @@ class GameOfLife {
 
   void runScalar();
   void runSIMD();
+  int state(int i, int j);
+  int countNbrs(uint64_t i, uint64_t j);
 };
